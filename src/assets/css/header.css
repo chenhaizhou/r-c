@@ -1,0 +1,119 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 100px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+header a {
+  color: #666;
+}
+
+header nav {
+  width: 40px;
+  height: 40px;
+}
+
+header nav .nav-btn {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+header nav .nav-btn i {
+  vertical-align: middle;
+}
+
+header nav .nav {
+  width: 160px;
+  max-height: 260px;
+  background-color: #fff;
+}
+
+header nav .nav li {
+  font-size: 1.4rem;
+  line-height: 30px;
+}
+
+header .logo {
+  max-height: 40px;
+}
+
+header nav, header .language-wrap {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+header nav {
+  left: 10px;
+}
+
+header nav .nav {
+  display: none;
+}
+
+header nav.show .nav {
+  display: block;
+}
+
+header .language-wrap {
+  right: 10px;
+}
+
+header .language-wrap em {
+  font-style: normal;
+}
+
+header .language-wrap .language {
+  position: absolute;
+  display: none;
+  width: 120px;
+  right: 0;
+  max-height: 260px;
+  background-color: #fff;
+  list-style: none;
+}
+
+header .language-wrap .language li {
+  font-size: 1.2rem;
+  line-height: 26px;
+  border-top: 1px solid #efefef;
+}
+
+header .language-wrap .language li:first-child {
+  border-top: 0;
+}
+
+header .language-wrap .language li a {
+  text-decoration: none;
+}
+
+header .language-wrap .language li:hover {
+  background-color: #efefef;
+}
+
+header .language-wrap.show .language {
+  display: block;
+}
+
+header .language-wrap .language-btn {
+  line-height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+header .language-wrap .language-btn i {
+  vertical-align: middle;
+}
+
+header .language-wrap .language-btn i:first-child {
+  margin-right: 5px;
+}
